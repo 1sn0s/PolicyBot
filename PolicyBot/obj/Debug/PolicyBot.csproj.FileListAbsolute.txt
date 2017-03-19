@@ -1,0 +1,42 @@
+E:\Profs\PolicyBot\PolicyBot\bin\Bot Application1.dll.config
+E:\Profs\PolicyBot\PolicyBot\bin\Bot Application1.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Bot Application1.pdb
+E:\Profs\PolicyBot\PolicyBot\bin\Autofac.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Chronic.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Builder.Autofac.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Builder.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Connector.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Newtonsoft.Json.dll
+E:\Profs\PolicyBot\PolicyBot\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Profs\PolicyBot\PolicyBot\bin\System.Net.Http.Formatting.dll
+E:\Profs\PolicyBot\PolicyBot\bin\System.Web.Http.dll
+E:\Profs\PolicyBot\PolicyBot\bin\System.Web.Http.WebHost.dll
+E:\Profs\PolicyBot\PolicyBot\bin\Autofac.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Builder.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Builder.Autofac.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.Bot.Connector.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\Profs\PolicyBot\PolicyBot\bin\Newtonsoft.Json.xml
+E:\Profs\PolicyBot\PolicyBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\Profs\PolicyBot\PolicyBot\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Profs\PolicyBot\PolicyBot\bin\System.Net.Http.Formatting.xml
+E:\Profs\PolicyBot\PolicyBot\bin\System.Web.Http.xml
+E:\Profs\PolicyBot\PolicyBot\bin\System.Web.Http.WebHost.xml
+E:\Profs\PolicyBot\PolicyBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\Profs\PolicyBot\PolicyBot\obj\Debug\PolicyBot.csprojResolveAssemblyReference.cache
+E:\Profs\PolicyBot\PolicyBot\obj\Debug\Bot Application1.dll
+E:\Profs\PolicyBot\PolicyBot\obj\Debug\Bot Application1.pdb
