@@ -21,11 +21,18 @@ namespace PolicyBot
                 return replyMessage;
             }
 
-            var actions = topScoringIntent.actions;
-            if (actions.Count() > 0)
+            var intent = topScoringIntent.intent;
+            switch (intent.ToLower())
             {
-                var action = actions[0];
-                replyMessage = action.name;
+                case "getleave": replyMessage = "leave";
+                    break;
+                case "getleavecasual": replyMessage = "casual";
+                    break;
+                case "getleavesick":
+                    replyMessage = "sick";
+                    break;
+                default: replyMessage = "none";
+                    break;
             }
             return replyMessage;
         }

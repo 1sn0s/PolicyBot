@@ -7,7 +7,7 @@ namespace PolicyBot.Models
 {
     public class Policy
     {
-        public string policy;
+        public string policyText;
         public List<string> subpolicies;
     }
 }

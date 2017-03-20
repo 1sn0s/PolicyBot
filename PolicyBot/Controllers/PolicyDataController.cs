@@ -19,6 +19,13 @@ namespace PolicyBot
                 case "casual leave": 
                     reply = this.GetCausalLeavePolicy();
                     break;
+                case "sick":
+                case "sick leave":
+                    reply = this.GetSickLeavePolicy();
+                    break;
+                case "none":
+                    reply.policyText = "I din't understand that. Please provide a different query (Sorry, I am still learning)";
+                    break;
                 default: reply = null;
                     break;
             }
@@ -30,7 +37,7 @@ namespace PolicyBot
             var policyReply = new Policy();
             List<string> subLeavePolicies = 
                 new List<string> { "sick leave", "casual leave", "privilege leave", "LOP" };
-            policyReply.policy = "This is the leave policy";
+            policyReply.policyText = "This is the leave policy";
             policyReply.subpolicies = subLeavePolicies;
             return policyReply;
         }
@@ -38,7 +45,14 @@ namespace PolicyBot
         private Policy GetCausalLeavePolicy()
         {
             var policyReply = new Policy();            
-            policyReply.policy = "This is the casual leave policy";
+            policyReply.policyText = "This is the casual leave policy";
+            return policyReply;
+        }
+
+        private Policy GetSickLeavePolicy()
+        {
+            var policyReply = new Policy();
+            policyReply.policyText = "This is the sick leave policy";
             return policyReply;
         }
     }

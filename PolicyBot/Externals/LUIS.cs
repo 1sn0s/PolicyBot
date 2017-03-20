@@ -32,8 +32,15 @@ namespace PolicyBot.Models
     public class PolicyLUIS
     {
         public string query { get; set; }
+        public Topscoringintent topScoringIntent { get; set; }
         public Intents[] intents { get; set; }
         public Entity[] entities { get; set; }
+    }
+
+    public class Topscoringintent
+    {
+        public string intent { get; set; }
+        public float score { get; set; }
     }
 
     public class Intents

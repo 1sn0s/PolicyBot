@@ -83,12 +83,12 @@ namespace PolicyBot
         public async virtual Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> result)
         {
             var message = await result;
-
+            await context.PostAsync($"checking ...");
             string policyKey = string.Empty;
             //Send and recive from LUIS here 
             PolicyLUIS userRequest = await LUIS.ProcessuserInput(message.Text);
-            //policyKey = await new PolicyActionManager().GetActionToPerform(userRequest);
-            policyKey = "leave";
+            policyKey = await new PolicyActionManager().GetActionToPerform(userRequest);
+            //policyKey = "leave";
             PrepareResponse(context, policyKey);
         }
 
@@ -100,9 +100,9 @@ namespace PolicyBot
             //If policy has sub policy
             PolicyDataController policyData = new PolicyDataController();
             Policy policy = policyData.GetPolicy(policyKey);
-            if (!string.IsNullOrEmpty(policy.policy))
+            if (!string.IsNullOrEmpty(policy.policyText))
             {
-                replyMessage = policy.policy;
+                replyMessage = policy.policyText;
             }
 
             if (policy.subpolicies != null)
