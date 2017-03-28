@@ -89,7 +89,7 @@ namespace PolicyBot
             PolicyLUIS userRequest = await LUIS.ProcessuserInput(message.Text);
             policyKey = await new PolicyActionManager().GetActionToPerform(userRequest);
             //policyKey = "leave";
-            PrepareResponse(context, policyKey);
+            await PrepareResponse(context, policyKey);
         }
 
         //Prepare the respnse
@@ -99,7 +99,7 @@ namespace PolicyBot
             string replyMessage = string.Empty;
             //If policy has sub policy
             PolicyDataController policyData = new PolicyDataController();
-            Policy policy = policyData.GetPolicy(policyKey);
+            Policy policy = await policyData.GetPolicy(policyKey);
             if (!string.IsNullOrEmpty(policy.policyText))
             {
                 replyMessage = policy.policyText;
@@ -140,7 +140,7 @@ namespace PolicyBot
                 {
                     case "exit" : context.Wait(this.MessageReceivedAsync);
                         break;
-                    default     : PrepareResponse(context, optionSelected);
+                    default     : await PrepareResponse(context, optionSelected);
                         break;
                 }         
             }

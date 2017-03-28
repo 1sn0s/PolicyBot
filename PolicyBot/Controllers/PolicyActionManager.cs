@@ -26,10 +26,10 @@ namespace PolicyBot
             {
                 case "getleave": replyMessage = "leave";
                     break;
-                case "getleavecasual": replyMessage = "casual";
+                case "getleavecasual": replyMessage = "casual_leave";
                     break;
                 case "getleavesick":
-                    replyMessage = "sick";
+                    replyMessage = "sick_leave";
                     break;
                 default: replyMessage = "none";
                     break;
